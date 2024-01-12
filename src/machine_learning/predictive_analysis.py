@@ -12,7 +12,7 @@ from src.data_management import load_pkl_file
 
 def plot_predictions_probabilities(pred_proba, pred_class):
     """
-    Plot prediction probability results
+    Plots prediction probability results
     """
 
     prob_per_class = pd.DataFrame(
@@ -38,7 +38,7 @@ def plot_predictions_probabilities(pred_proba, pred_class):
 
 def resize_input_image(img, version):
     """
-    Reshape image to average image size
+    Reshapes image to average image size
     """
     image_shape = load_pkl_file(file_path=f"outputs/{version}/image_shape.pkl")
     img_resized = img.resize((image_shape[1], image_shape[0]), Image.ANTIALIAS)
@@ -49,7 +49,7 @@ def resize_input_image(img, version):
 
 def load_model_and_predict(my_image, version):
     """
-    Load and perform ML prediction over live images
+    Loads and performs ML prediction over live images
     """
 
     model = load_model(f"outputs/{version}/powdery_mildew_model.h5")
