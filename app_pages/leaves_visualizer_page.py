@@ -12,18 +12,20 @@ import random
 def leaves_visualizer_page_body():
     st.write("### Leaves Visualizer")
     st.info(
-        f"A study that visually differentiates a cherry leaf affected by powdery mildew from a healthy one.")
-
-    st.warning(
-        f" We suspect cherry leaves affected by powdery mildew have clear marks," 
-        f" typically the first symptom is a light-green, circular lesion on either leaf surface," 
-        f" then a subtle white cotton-like growth develops in the infected area.\n\n" 
-        f" This property has to be translated in machine learning terms," 
-        f" images have to be 'prepared' before being fed to the model for an optimal feature extraction and training.\n\n"
-        f" When we are dealing with an Image dataset, it's important to normalize the images in the dataset before training a Neural Network on it." 
-        f" To normalize an image, one will need the mean and standard deviation of the entire dataset that are calculated with a mathematical formula"
-        f" which takes into consideration the properties of an image"
+        f"In answer to Business requirement 1 - **The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew**.\n\n"
+        f"This page shows the visual difference between a healthy cherry leaf and one affected by powdery mildew.\n\n"
     )
+
+    # st.warning(
+    #     f" We suspect cherry leaves affected by powdery mildew have clear marks," 
+    #     f" typically the first symptom is a light-green, circular lesion on either leaf surface," 
+    #     f" then a subtle white cotton-like growth develops in the infected area.\n\n" 
+    #     f" This property has to be translated in machine learning terms," 
+    #     f" images have to be 'prepared' before being fed to the model for an optimal feature extraction and training.\n\n"
+    #     f" When we are dealing with an Image dataset, it's important to normalize the images in the dataset before training a Neural Network on it." 
+    #     f" To normalize an image, one will need the mean and standard deviation of the entire dataset that are calculated with a mathematical formula"
+    #     f" which takes into consideration the properties of an image"
+    # )
     
     version = 'v1'
     if st.checkbox("Difference between average and variability image"):
@@ -34,7 +36,7 @@ def leaves_visualizer_page_body():
       st.warning(
         f"We notice the average and variability images did not show "
         f"patterns where we could intuitively differentiate one from another. " 
-        f"However, mildew affected leaves show more white stipes on the center.")
+        f"However, mildew infected leaves show more powdery looking patches.")
 
       st.image(avg_powdery_mildew, caption='Affected leaf - Average and Variability')
       st.image(avg_uninfected, caption='healthy leaf - Average and Variability')
@@ -44,8 +46,7 @@ def leaves_visualizer_page_body():
           diff_between_avgs = plt.imread(f"outputs/{version}/avg_diff.png")
 
           st.warning(
-            f"We notice this study didn't show "
-            f"patterns where we could intuitively differentiate one from another.")
+            f"There is noticeable difference in color between the healthy leaves and those infected by mildew. The healthy leaves are clearly greener.")
           st.image(diff_between_avgs, caption='Difference between average images')
 
     if st.checkbox("Image Montage"): 
