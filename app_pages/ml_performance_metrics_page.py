@@ -27,11 +27,11 @@ def ml_performance_metrics_page():
         f"When good model performs well on unseen data it means that it's able to generalize and didn't fit too closely to the training dataset.")
 
     st.write("Model Training Accuracy")
-    model_clf = plt.imread(f"/workspaces/Mildew_Detection_pjkt/assets/streamlit_app_images/model_training_accuracy.png")
+    model_clf = plt.imread(f"/workspaces/Mildew_Detection_pjkt/outputs/v1/model_training_acc.png")
     st.image(model_clf, caption='Model Accuracy')  
 
     st.write("Model Training Loss")
-    model_clf = plt.imread(f"/workspaces/Mildew_Detection_pjkt/assets/streamlit_app_images/model_training _losses.png")
+    model_clf = plt.imread(f"/workspaces/Mildew_Detection_pjkt/outputs/v1/model_training_losses.png")
     st.image(model_clf, caption='Model Loss')  
 
 
