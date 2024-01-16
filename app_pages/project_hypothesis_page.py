@@ -22,7 +22,7 @@ def project_hypothesis_page_body():
         f" as seen in the training dataset but the general pattern from feature to labels. "
     )
 
-
     st.write(
-        f"For additional information, please visit and **read** the "
-        f"[Project README file](https://github.com/cla-cif/Detection-Cherry-Powdery-Mildew#readme).")
+        f"For additional information, please **read**\n "
+        f"[this project's README.md file](https://github.com/Flora-King/Mildew_Detection_pjkt.git)."
+        )

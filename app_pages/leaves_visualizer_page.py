@@ -15,17 +15,6 @@ def leaves_visualizer_page_body():
         f"In answer to Business requirement 1 - **The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew**.\n\n"
         f"This page shows the visual difference between a healthy cherry leaf and one affected by powdery mildew.\n\n"
     )
-
-    # st.warning(
-    #     f" We suspect cherry leaves affected by powdery mildew have clear marks," 
-    #     f" typically the first symptom is a light-green, circular lesion on either leaf surface," 
-    #     f" then a subtle white cotton-like growth develops in the infected area.\n\n" 
-    #     f" This property has to be translated in machine learning terms," 
-    #     f" images have to be 'prepared' before being fed to the model for an optimal feature extraction and training.\n\n"
-    #     f" When we are dealing with an Image dataset, it's important to normalize the images in the dataset before training a Neural Network on it." 
-    #     f" To normalize an image, one will need the mean and standard deviation of the entire dataset that are calculated with a mathematical formula"
-    #     f" which takes into consideration the properties of an image"
-    # )
     
     version = 'v1'
     if st.checkbox("Difference between average and variability image"):
@@ -68,7 +57,7 @@ def image_montage(dir_path, label_to_display, nrows, ncols, figsize=(15,10)):
   # subset the class you are interested to display
   if label_to_display in labels:
 
-    # checks if your montage space is greater than subset size
+    # checks if montage space is greater than subset size
     # how many images in that folder
     images_list = os.listdir(dir_path+'/'+ label_to_display)
     if nrows * ncols < len(images_list):
