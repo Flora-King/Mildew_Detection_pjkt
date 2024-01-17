@@ -12,4 +12,4 @@ keras==2.6.0
 protobuf==3.20
 altair<5
 # python-3.8.16
-Python >=3.9
+Python >=3.8.12
