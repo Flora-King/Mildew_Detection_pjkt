@@ -7,3 +7,5 @@ README.md
 *.psd
 *.pdf
 .Trash-1000
+kaggle.json
+node_modules/
