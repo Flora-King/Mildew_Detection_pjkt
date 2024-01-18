@@ -7,7 +7,6 @@ assets/streamlit_app_images
 /.devcontainer
 .gitpod.dockerfile
 .gitpod.yml
-.gitpod.yml
 /.gitignore
 /inputs
 *.ipynb
@@ -16,10 +15,15 @@ assets/streamlit_app_images
 kaggle.json
 *.psd
 *.pdf
+*.pyc
+*.pyo
 README.md
 /src/__pycache__
 /.Trash-1000
 /.theia
+tmp
 /.vscode
 *.zip
 node_modules/
+env.py
+cloudinary_python.txt
