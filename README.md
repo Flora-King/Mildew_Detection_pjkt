@@ -3,12 +3,12 @@
 ## Table of Contents
 
 1. [Background](#background)
-2. [Project Dataset](#project dataset)
-3. [Hypothesis and validation](#hypothesis-and-validation)
-4. [Rationale for the model](#the-rationale-for-the-model)
+2. [Project Dataset](#project-dataset)
+3. [Business Requirements](#business-requirements)
+4. [Hypothesis and Validation](#hypothesis-and-validation)
 5. [Implementation of the Business Requirements](#the-rationale-for-mapping-business-requirements-to-data-visualizations-and-ml-tasks)
 6. [ML Business case](#ml-business-case)
-7. [Dashboard design](#dashboard-design-streamlit-app-user-interface)
+7. [Dashboard Design](#dashboard-design)
 8. [CRISP-DM Process](#crisp-dm-process-implementation)
 9. [Bugs](#bugs)
 10. [Deployment](#deployment)
@@ -33,14 +33,14 @@ The company has thousands of cherry trees, located on multiple farms across the 
 
 ## Business Requirements
 
-The cherry plantation crop from Farmy & Foods is facing a challenge where their cherry plantations have been presenting powdery mildew. Currently, the process is manual verification if a given cherry tree contains powdery mildew. An employee spends around 30 minutes in each tree, taking a few samples of tree leaves and verifying visually if the leaf tree is healthy or has powdery mildew. If there is powdery mildew, the employee applies a specific compound to kill the fungus. The time spent applying this compound is 1 minute.  The company has thousands of cherry trees, located on multiple farms across the country. As a result, this manual process is not scalable due to the time spent in the manual process inspection.
+To save time in this process, the IT team suggested an ML system that can detect instantly, using a leaf tree image, if it is healthy or has powdery mildew. A similar manual process is in place for other crops for detecting pests, and if this initiative is successful, there is a realistic chance to replicate this project for all other crops. The dataset is a collection of cherry leaf images provided by Farmy & Foods, taken from their crops.
 
-To save time in this process, the IT team suggested an ML system that detects instantly, using a leaf tree image, if it is healthy or has powdery mildew. A similar manual process is in place for other crops for detecting pests, and if this initiative is successful, there is a realistic chance to replicate this project for all other crops. The dataset is a collection of cherry leaf images provided by Farmy & Foods, taken from their crops.
+The client a two manin requirement:
 
 * 1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
 * 2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
 
-## Hypothesis and how to validate?
+## Hypothesis and validateion
 
 ### Hypothesis
 
@@ -51,6 +51,14 @@ To save time in this process, the IT team suggested an ML system that detects in
 * We suspect cherry leaves affected by powdery mildew have clear marks, typically the first symptom is a light-green, circular
   lesion on either leaf surface, then a subtle white cotton-like growth develops in the infected area.
 
+### Observation
+
+* An image montage shows the difference between a healthy leaf and an infected one.
+
+* The difference between average and variability images shows that affected leaves display more white powdery spots around the center of the leaf
+
+* And the image difference between average infected and average infected leaves shows no intuitive difference.
+
 ### Conclusion
 
 * The model was able to detect such differences and learn how to differentiate and generalize in order to make accurate predictions.
@@ -58,7 +66,7 @@ To save time in this process, the IT team suggested an ML system that detects in
   In this way the model is able to generalize and predict future observation reliably because it didn't 'memorize'
   the relationships between features and labels as seen in the training dataset but the general pattern from feature to labels.
 
-## The rationale to map the business requirements to the Data Visualisations and ML tasks
+## Rationale for Data Visualisations and ML tasks
 
 ## ML Business Case
 
@@ -71,8 +79,6 @@ A similar manual process is in place for other crops for detecting pests, and if
 * Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
 
 ## Unfixed Bugs
-
-**FileNotFoundError: [Errno 2] No such file or directory: 'outputs/1/image_shape.pkl' - throwing an error on the mildew deyector app page.**
 
 ## Deployment
 
@@ -116,4 +122,4 @@ A similar manual process is in place for other crops for detecting pests, and if
 
 ## Acknowledgements
 
-*
+* Thanks to [Code Institute](https://codeinstitute.net/global/) and my one-off session mentor Precious Ijege.
