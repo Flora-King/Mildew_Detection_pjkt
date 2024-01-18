@@ -24,3 +24,5 @@ kaggle.json
 tmp
 log
 .gitignore
+*.ipynb
+README.md
