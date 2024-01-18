@@ -9,6 +9,3 @@ inputs/cherryleaves_dataset/cherry-leaves/train/healthy/*
 inputs/cherryleaves_dataset/cherry-leaves/train/powdery_mildew/*
 /jupyter_notebooks
 *.ipynb
-README.md
-.Trash-1000
-kaggle.json
