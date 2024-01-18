@@ -1,0 +1,8 @@
+*.psd
+*.pdf
+/test
+/spec
+*.zip
+/jupyter_notebooks
+*.ipynb
+README.md
