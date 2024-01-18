@@ -9,11 +9,10 @@
 5. [Implementation](#rationale-for-data-visualizations-and-ml-tasks)
 6. [ML Business case](#ml-business-case)
 7. [Dashboard Design](#dashboard-design)
-8. [CRISP-DM Process](#crisp-dm-process-implementation)
-9. [Bugs](#bugs)
-10. [Deployment](#deployment)
-11. [Technologies used](main-data-analysis-and-machine-learning-libraries)
-12. [Credit](#credit)
+8. [Bugs](#bugs)
+9. [Deployment](#deployment)
+10. [Technologies used](main-data-analysis-and-machine-learning-libraries)
+11. [Credit](#credit)
 
 ## Background
 
