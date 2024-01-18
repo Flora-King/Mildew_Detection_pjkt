@@ -21,3 +21,5 @@ assets/streamlit_app_images
 /docker-compose.yml
 /Dockerfile
 /src/__pycache__
+/build-assets
+/.gitignore
