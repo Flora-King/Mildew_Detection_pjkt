@@ -5,3 +5,9 @@ app_pages/__pycache__/*
 *.ipynb
 /.Trash-1000
 /assets
+.gitpod.dockerfile
+.gitpod.yml
+*.psd
+*.pdf
+*.zip
+/documentation
