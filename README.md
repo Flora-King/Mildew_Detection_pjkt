@@ -74,8 +74,19 @@ A similar manual process is in place for other crops for detecting pests, and if
 
 ## Dashboard Design
 
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
-* Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
+    #### Page 1: Quick Project Summary
+
+
+    #### Page 2: Leaves Visualiser
+
+
+    #### Page 3: Powdery Mildew detector
+
+
+    #### Page 4: Project Hypothesis
+
+
+    #### Page 5: ML Performance Metrics
 
 ## Unfixed Bugs
 
