@@ -6,14 +6,14 @@
 2. [Project Dataset](#project-dataset)
 3. [Business Requirements](#business-requirements)
 4. [Hypothesis and Validation](#hypothesis-and-validation)
-5. [Implementation of the Business Requirements](#the-rationale-for-mapping-business-requirements-to-data-visualizations-and-ml-tasks)
+5. [Implementation](#rationale-for-data-visualizations-and-ml-tasks)
 6. [ML Business case](#ml-business-case)
 7. [Dashboard Design](#dashboard-design)
 8. [CRISP-DM Process](#crisp-dm-process-implementation)
 9. [Bugs](#bugs)
 10. [Deployment](#deployment)
-11. [Technologies used](#technologies-used)
-12. [Credits](#credits)
+11. [Technologies used](main-data-analysis-and-machine-learning-libraries)
+12. [Credit](#credit)
 
 ## Background
 
@@ -55,7 +55,7 @@ The client a two manin requirement:
 
 * An image montage shows the difference between a healthy leaf and an infected one.
 
-* The difference between average and variability images shows that affected leaves display more white powdery spots around the center of the leaf
+* The difference between average and variability images shows that affected leaves display more more white powdery looking patches around the center of the leaf
 
 * And the image difference between average infected and average infected leaves shows no intuitive difference.
 
@@ -111,7 +111,7 @@ A similar manual process is in place for other crops for detecting pests, and if
 |streamlit |0.85.0 |creating the dashboard|
 |tensorflow-cpu |2.6.0|creating the model|
 
-## CREDIT
+## Credit
 
 #### Code, content and media
 
