@@ -1,6 +1,4 @@
 /inputs
-/.github
-/.vscode
 README.md
 app_pages/__pycache__/*
 /jupyter_notebooks
