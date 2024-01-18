@@ -13,6 +13,10 @@
 9. [Technologies used](#main-data-analysis-and-machine-learning-libraries)
 10. [Credit](#credit)
 
+[click here to access app](<https://mildew-detector-pjt.herokuapp.com/>)
+
+[click here to access github workspace](https://github.com/Flora-King/Mildew_Detection_pjkt.git)
+
 ## Background
 
 Farmy & Foods, are the client for this project and are facing a challenge where their cherry plantations have been presenting powdery mildew.
