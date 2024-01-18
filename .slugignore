@@ -14,3 +14,10 @@ node_modules/
 *.pyc
 *.pyo
 __pycache__/
+.Trash-1000
+kaggle.json
+*.psd
+*.pdf
+/test
+/spec
+*.zip
