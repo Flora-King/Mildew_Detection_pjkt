@@ -8,3 +8,5 @@ inputs/cherry_mildew_dataset/cherry-leaves/train/*
 /jupyter_notebooks
 *.ipynb
 README.md
+.Trash-1000
+kaggle.json
