@@ -1,4 +1,12 @@
-/app/assets
-/app/.Trash-1000
-/app/.ipynb_checkpoints
-/app/.theia
+inputs/cherryleaves_dataset/cherry-leaves/test/healthy/*
+inputs/cherryleaves_dataset/cherry-leaves/test/powdery_mildew/*
+inputs/cherryleaves_dataset/cherry-leaves/train/healthy/*
+inputs/cherryleaves_dataset/cherry-leaves/train/powdery_mildew/*
+README.md
+.gitpod.dockerfile
+.gitpod.yml
+jupyter_notebooks/**
+node_modules/
+*.pyc
+*.pyo
+__pycache__/
