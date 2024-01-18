@@ -9,3 +9,5 @@ README.md
 *.pdf
 *.zip
 tmp
+/assets
+/.Trash-1000
