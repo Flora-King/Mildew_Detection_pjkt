@@ -9,3 +9,5 @@ README.md
 .Trash-1000
 kaggle.json
 node_modules/
+/test/*
+/train/*
