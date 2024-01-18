@@ -22,7 +22,8 @@ kaggle.json
 /spec
 *.zip
 tmp
-log
+* .log
 .gitignore
 *.ipynb
 README.md
+large_dataset/
