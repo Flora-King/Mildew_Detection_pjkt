@@ -1,5 +1,22 @@
 # Cherry Powdery Mildew detector
 
+## Table of Contents
+
+1. [Background](#background)
+2. [Project Dataset](#project dataset)
+3. [Hypothesis and validation](#hypothesis-and-validation)
+4. [Rationale for the model](#the-rationale-for-the-model)
+5. [Implementation of the Business Requirements](#the-rationale-for-mapping-business-requirements-to-data-visualizations-and-ml-tasks)
+6. [ML Business case](#ml-business-case)
+7. [Dashboard design](#dashboard-design-streamlit-app-user-interface)
+8. [CRISP-DM Process](#crisp-dm-process-implementation)
+9. [Bugs](#bugs)
+10. [Deployment](#deployment)
+11. [Technologies used](#technologies-used)
+12. [Credits](#credits)
+
+## Background
+
 Farmy & Foods, are the client for this project and are facing a challenge where their cherry plantations have been presenting powdery mildew.
 Powdery mildew is a parasitic fungal disease caused by Podosphaera clandestina in cherry trees.
 When the fungus begins to take over the plants, a layer of mildew made up of many spores forms across the top of the leaves.
@@ -9,7 +26,7 @@ The process used by Farmy & Foods to verify the presence of powdery mildew is ma
 and verifying visually if the leaf is healthy or has powdery mildew. If there is powdery mildew, the employee spends 1 minute applying a specific compound to kill the fungus.
 The company has thousands of cherry trees, located on multiple farms across the country and tie saving solution is needed.
 
-## Dataset Content
+## Project Dataset
 
 * The dataset contains 4208 images taken from  Farmy & Foods's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew, a fungal disease that affects many plant species. The cherry plantation crop is one of the finest products in their portfolio, and the company is concerned about supplying the market with a compromised quality product.
 * The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves).
