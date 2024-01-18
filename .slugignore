@@ -20,4 +20,6 @@ README.md
 /src/__pycache__
 /.Trash-1000
 /.theia
+/.vscode
 *.zip
+node_modules/
