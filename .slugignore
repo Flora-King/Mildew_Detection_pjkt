@@ -1,5 +1,5 @@
-README.md
+/documentation
+/jupyter_notebooks
 /inputs
-/.github
 /.vscode
-app_pages/__pycache__/*
+README.md
