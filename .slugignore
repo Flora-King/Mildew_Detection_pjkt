@@ -2,7 +2,11 @@ inputs/cherryleaves_dataset/cherry-leaves/test/healthy/*
 inputs/cherryleaves_dataset/cherry-leaves/test/powdery_mildew/*
 inputs/cherryleaves_dataset/cherry-leaves/train/healthy/*
 inputs/cherryleaves_dataset/cherry-leaves/train/powdery_mildew/*
-README.md
+/inputs/cherry_leaves/cherry-leaves/train/*
+/documentation
+/inputs/cherry_leaves/cherry-leaves/test/*
+/inputs/cherry_leaves/cherry-leaves/healthy
+/inputs/cherry_leaves/cherry-leaves/powdery_mildew
 .gitpod.dockerfile
 .gitpod.yml
 app_pages/__pycache__/*
@@ -15,7 +19,6 @@ node_modules/
 *.pyo
 __pycache__/
 .Trash-1000
-kaggle.json
 *.psd
 *.pdf
 /test
