@@ -16,3 +16,4 @@ attachments/*
 .gitpod.yml
 .Trash-1000
 kaggle.json
+/.gitignore
