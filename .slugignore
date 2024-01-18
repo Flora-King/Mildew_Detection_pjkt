@@ -17,3 +17,4 @@ attachments/*
 .Trash-1000
 kaggle.json
 /.gitignore
+assets/streamlit_app_images
