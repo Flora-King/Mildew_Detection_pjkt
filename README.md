@@ -74,19 +74,23 @@ A similar manual process is in place for other crops for detecting pests, and if
 
 ## Dashboard Design
 
-    #### Page 1: Quick Project Summary
+#### Page 1: Quick Project Summary
+
+#### Page 2: Leaves Visualiser
+
+#### Page 3: Powdery Mildew detector
+
+![Difference between average and variability image](https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/350e4d95-2546-46a4-bc61-7bfcfb5fc07e)
+
+![Difference between average infected and avearge healthy leaves](https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/28ad7d9a-8b77-4f28-a254-083f34b5ecdb)
+
+<img width="614" alt="Screenshot 2024-01-18 at 07 04 18" src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/6f01089a-502c-4f40-933c-b317895ea2f3">
+
+#### Page 4: Project Hypothesis
+
+#### Page 5: ML Performance Metrics
 
 
-    #### Page 2: Leaves Visualiser
-
-
-    #### Page 3: Powdery Mildew detector
-
-
-    #### Page 4: Project Hypothesis
-
-
-    #### Page 5: ML Performance Metrics
 
 ## Unfixed Bugs
 
