@@ -11,3 +11,8 @@ app_pages/__pycache__/*
 *.pdf
 *.zip
 /documentation
+attachments/*
+.gitpod.dockerfile
+.gitpod.yml
+.Trash-1000
+kaggle.json
