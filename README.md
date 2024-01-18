@@ -11,7 +11,7 @@
 7. [Dashboard Design](#dashboard-design)
 8. [Bugs](#bugs)
 9. [Deployment](#deployment)
-10. [Technologies used](main-data-analysis-and-machine-learning-libraries)
+10. [Technologies used](#main-data-analysis-and-machine-learning-libraries)
 11. [Credit](#credit)
 
 ## Background
@@ -39,7 +39,7 @@ The client a two manin requirement:
 * 1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
 * 2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
 
-## Hypothesis and validateion
+## Hypothesis and validation
 
 ### Hypothesis
 
@@ -76,23 +76,48 @@ A similar manual process is in place for other crops for detecting pests, and if
 
 #### Page 1: Quick Project Summary
 
+* Quick Project Summary
+
+![Quick Project Summary](https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/612ed4c2-47b9-4ba3-90d0-78df436a5092)
+
 #### Page 2: Leaves Visualiser
 
-#### Page 3: Powdery Mildew detector
+* Difference between average and variability
 
 ![Difference between average and variability image](https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/350e4d95-2546-46a4-bc61-7bfcfb5fc07e)
 
+* Difference between average infected and avearge healthy leaves
+
 ![Difference between average infected and avearge healthy leaves](https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/28ad7d9a-8b77-4f28-a254-083f34b5ecdb)
 
+* Image montage
+
 <img width="614" alt="Screenshot 2024-01-18 at 07 04 18" src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/6f01089a-502c-4f40-933c-b317895ea2f3">
+#### Page 3: Powdery Mildew detector
 
 #### Page 4: Project Hypothesis
 
+* Hypothesis and validation
+
+<img width="765" alt="Screenshot 2024-01-18 at 07 19 30" src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/b273838d-0893-4fa9-be55-b5d9a792a68d">
+
 #### Page 5: ML Performance Metrics
 
+* Images distribution per data set and label
+  
+<img width="528" alt="Screenshot 2024-01-18 at 07 18 28" src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/47873145-b83a-42cb-8138-8abcea1e54b8">
 
+* Model Accuracy
+  
+<img width="550" alt="Screenshot 2024-01-18 at 07 18 47" src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/58c43bb1-3967-4cb5-8c44-cc4979d01273">
+
+* Model Loss
+
+<img width="499" alt="Screenshot 2024-01-18 at 07 19 02" src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/ff30dd9b-88eb-48e4-b643-0dda962ee3c2">
 
 ## Unfixed Bugs
+
+* tThere are no un fixed bugs
 
 ## Deployment
 
@@ -133,6 +158,8 @@ A similar manual process is in place for other crops for detecting pests, and if
 * I also repurposed the code provided during the Malaria Detector Walkthrough project since the projects are so similar to create content for this project. I followed along the  
   malaria detector tutorial video series in order to create and complete the jupyter notebooks and streamlit dashboard.
 * The content on the summary page of the streamlit app was source from [Wikipedia](https://en.wikipedia.org/wiki/Powdery_mildew).
+* I frequently searched through queries on stackoverflow for guidance on how to get rid of the bugs i encountered
+* I searched and reviewed code queries liste don code institute Slack
 
 ## Acknowledgements
 
