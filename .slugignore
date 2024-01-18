@@ -3,3 +3,7 @@
 /.vscode
 README.md
 app_pages/__pycache__/*
+/jupyter_notebooks
+*.ipynb
+/.Trash-1000
+/assets

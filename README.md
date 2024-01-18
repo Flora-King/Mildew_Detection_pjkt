@@ -6,13 +6,12 @@
 2. [Project Dataset](#project-dataset)
 3. [Business Requirements](#business-requirements)
 4. [Hypothesis and Validation](#hypothesis-and-validation)
-5. [Implementation](#rationale-for-data-visualizations-and-ml-tasks)
-6. [ML Business case](#ml-business-case)
-7. [Dashboard Design](#dashboard-design)
-8. [Bugs](#bugs)
-9. [Deployment](#deployment)
-10. [Technologies used](#main-data-analysis-and-machine-learning-libraries)
-11. [Credit](#credit)
+5. [ML Business case](#ml-business-case)
+6. [Dashboard Design](#dashboard-design)
+7. [Unfixed Bugs](#unfixed-bugs)
+8. [Deployment](#deployment)
+9. [Technologies used](#main-data-analysis-and-machine-learning-libraries)
+10. [Credit](#credit)
 
 ## Background
 
@@ -34,7 +33,7 @@ The company has thousands of cherry trees, located on multiple farms across the 
 
 To save time in this process, the IT team suggested an ML system that can detect instantly, using a leaf tree image, if it is healthy or has powdery mildew. A similar manual process is in place for other crops for detecting pests, and if this initiative is successful, there is a realistic chance to replicate this project for all other crops. The dataset is a collection of cherry leaf images provided by Farmy & Foods, taken from their crops.
 
-The client a two manin requirement:
+The client has two main requirements:
 
 * 1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
 * 2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
@@ -69,8 +68,13 @@ The client a two manin requirement:
 
 ## ML Business Case
 
-* To address this challenge the IT team suggested an ML system that uses a leaf image to instantly detect if it is healthy or has powdery mildew.
-A similar manual process is in place for other crops for detecting pests, and if this initiative is successful, there is a realistic chance to replicate this project for all other crops.
+* This client will most definiitely benefit from using an ML system because we are told it uses a leaf image to instantly detect if it is healthy or has powdery mildew. This will save the client a lot of processing time and ensure that a bigger number of crops are covered in shorter time. Also if this initiative is successful, there is a realistic chance to replicate this project for all other crops.
+
+* The model success metrics relies mainly on the evidence of its **accuracy of over 97%** on the test set.
+The farmer takes a picture of a leaf and uploads it to the **Cherry Powdery Mildew detector app**. The prediction is made on the fly (not in batches).
+
+* Manually checking each leaf as a method isnt effecient or even cot effective and leaves room to produce inaccurate diagnostics due to human error. A farmer spends around 30 minutes on each tree, taking a few samples of tree leaves and verifying visually if the leaf is healthy or has powdery mildew.
+Taking images and uploading them to the Powedery Mildew detcctor page on the **Cherry Powdery Mildew detector app** would bring about time, cost and accuracy results.
 
 ## Dashboard Design
 
@@ -92,32 +96,48 @@ A similar manual process is in place for other crops for detecting pests, and if
 
 * Image montage
 
-<img width="614" alt="Screenshot 2024-01-18 at 07 04 18" src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/6f01089a-502c-4f40-933c-b317895ea2f3">
+<img width="614" alt="Screenshot 2024-01-18 at 07 04 18"
+    src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/6f01089a-502c-4f40-933c-b317895ea2f3">
+
 #### Page 3: Powdery Mildew detector
+
+* Mildew detection
+  
+<img width="608" alt="Screenshot 2024-01-17 at 20 19 50"
+    src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/5933fb57-4b13-45ce-91b7-ee80bfa5233f">
 
 #### Page 4: Project Hypothesis
 
 * Hypothesis and validation
 
-<img width="765" alt="Screenshot 2024-01-18 at 07 19 30" src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/b273838d-0893-4fa9-be55-b5d9a792a68d">
+<img width="765" alt="Screenshot 2024-01-18 at 07 19 30"
+    src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/b273838d-0893-4fa9-be55-b5d9a792a68d">
 
 #### Page 5: ML Performance Metrics
 
 * Images distribution per data set and label
   
-<img width="528" alt="Screenshot 2024-01-18 at 07 18 28" src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/47873145-b83a-42cb-8138-8abcea1e54b8">
+<img width="528" alt="Screenshot 2024-01-18 at 07 18 28"
+    src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/47873145-b83a-42cb-8138-8abcea1e54b8">
 
 * Model Accuracy
   
-<img width="550" alt="Screenshot 2024-01-18 at 07 18 47" src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/58c43bb1-3967-4cb5-8c44-cc4979d01273">
+<img width="550" alt="Screenshot 2024-01-18 at 07 18 47"
+    src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/58c43bb1-3967-4cb5-8c44-cc4979d01273">
 
 * Model Loss
 
-<img width="499" alt="Screenshot 2024-01-18 at 07 19 02" src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/ff30dd9b-88eb-48e4-b643-0dda962ee3c2">
+<img width="499" alt="Screenshot 2024-01-18 at 07 19 02"
+    src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/ff30dd9b-88eb-48e4-b643-0dda962ee3c2">
+
+* Generalised Performance on Test Set
+
+<img width="492" alt="Screenshot 2024-01-18 at 07 52 15"
+    src="https://github.com/Flora-King/Mildew_Detection_pjkt/assets/106548101/e5857e98-275c-4dd5-9dc6-e155ac5aea6b">
 
 ## Unfixed Bugs
 
-* tThere are no un fixed bugs
+* There are no unfixed bugs
 
 ## Deployment
 
@@ -130,9 +150,10 @@ A similar manual process is in place for other crops for detecting pests, and if
 1. Log in to Heroku and create an App
 2. At the Deploy tab, select GitHub as the deployment method.
 3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
+4. Select the main branch to deploy, then click Deploy Branch.
+5. The deployment process happens smoothly if all deployment files are fully functional.
+6. Click on Open App button on the top of the page to access App.
+   1. If the slug size is too large then add large files not required for the app to the .slugignore file.
 
 ## Main Data Analysis and Machine Learning Libraries
 
