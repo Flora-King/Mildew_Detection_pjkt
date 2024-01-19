@@ -5,13 +5,15 @@ attachments/*
 /assets
 /cloudinary_python.txt
 /documentation
-/.devcontainer
+./.devcontainer
+./.devcontainer/build-assets
 /env.py
 /.gitpod.dockerfile
 /.gitignore
 /.gitignore
 /.github
-/inputs
+./.git/logs
+./inputs
 *.ipynb
 /.ipynb_checkpoints
 /jupyter_notebooks
