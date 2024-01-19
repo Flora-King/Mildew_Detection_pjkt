@@ -3,8 +3,10 @@
 attachments/*
 app_pages/__pycache__/*
 assets/streamlit_app_images
+cloudinary_python.txt
 /documentation
 /.devcontainer
+env.py
 .gitpod.dockerfile
 .gitpod.yml
 /.gitignore
@@ -13,6 +15,7 @@ assets/streamlit_app_images
 /.ipynb_checkpoints
 /jupyter_notebooks
 kaggle.json
+node_modules/
 *.psd
 *.pdf
 *.pyc
@@ -24,6 +27,3 @@ README.md
 tmp
 /.vscode
 *.zip
-node_modules/
-env.py
-cloudinary_python.txt
