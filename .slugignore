@@ -29,5 +29,3 @@ tmp
 /.vscode
 *.zip
 /.slugignore
-/test
-/train
