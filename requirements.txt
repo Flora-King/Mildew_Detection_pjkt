@@ -5,4 +5,4 @@ seaborn
 plotly
 streamlit
 scikit-learn
-tensorflow==1.14
+tensorflow-cpu
