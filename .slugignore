@@ -2,7 +2,7 @@
 /assets
 attachments/*
 app_pages/__pycache__/*
-assets/streamlit_app_images
+/assets
 cloudinary_python.txt
 /documentation
 /.devcontainer
@@ -10,6 +10,7 @@ env.py
 .gitpod.dockerfile
 .gitpod.yml
 /.gitignore
+/.github
 /inputs
 *.ipynb
 /.ipynb_checkpoints
@@ -27,3 +28,4 @@ README.md
 tmp
 /.vscode
 *.zip
+/.slugignore
