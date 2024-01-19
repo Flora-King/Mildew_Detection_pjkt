@@ -6,10 +6,7 @@
 /documentation
 /.devcontainer
 /.gitpod.dockerfile
-/.gitignore
-/.github
 /inputs
-*.ipynb
 /.ipynb_checkpoints
 /jupyter_notebooks
 /kaggle.json
