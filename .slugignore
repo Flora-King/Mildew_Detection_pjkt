@@ -4,13 +4,11 @@
 /assets
 /cloudinary_python.txt
 /documentation
-./.devcontainer
+/.devcontainer
 /.gitpod.dockerfile
 /.gitignore
-/.gitignore
 /.github
-./.git/logs
-./inputs*
+/inputs
 *.ipynb
 /.ipynb_checkpoints
 /jupyter_notebooks
