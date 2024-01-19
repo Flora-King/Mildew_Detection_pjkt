@@ -30,4 +30,3 @@ node_modules/
 tmp
 /.vscode
 *.zip
-/.slugignore
