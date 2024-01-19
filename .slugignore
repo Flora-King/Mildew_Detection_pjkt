@@ -1,9 +1,9 @@
 # cat .slugignore
 /assets
 attachments/*
-app_pages/__pycache__/*
+/app_pages/__pycache__/*
 /assets
-cloudinary_python.txt
+/cloudinary_python.txt
 /documentation
 /.devcontainer
 /env.py
@@ -21,7 +21,7 @@ node_modules/
 *.pdf
 *.pyc
 *.pyo
-README.md
+/README.md
 /src/__pycache__
 /.Trash-1000
 /.theia
