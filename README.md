@@ -61,6 +61,8 @@ The client has two main requirements:
 
 * And the image difference between average infected and average infected leaves shows no intuitive difference.
 
+/Users/fking/Desktop/Mildew_Detection_pjkt/outputs/v1/avg_diff.png
+
 ### Conclusion
 
 * The model was able to detect such differences and learn how to differentiate and generalize in order to make accurate predictions.
