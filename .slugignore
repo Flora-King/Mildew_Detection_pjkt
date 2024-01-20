@@ -49,3 +49,5 @@ tmp
 ./.git/logs
 /jupyter_notebooks
 /inputs
+./.git/info
+ ./.ipynb_checkpoints
