@@ -1,16 +1,13 @@
 # cat .slugignore
 /assets
 /app_pages/__pycache__/*
-/assets
 /cloudinary_python.txt
 /documentation
 /.devcontainer
-/.gitpod.dockerfile
 /inputs
 /.ipynb_checkpoints
 /jupyter_notebooks
 /kaggle.json
-node_modules/
 *.psd
 *.pdf
 *.pyc
@@ -19,7 +16,6 @@ node_modules/
 /src/__pycache__
 /.Trash-1000
 /.theia
-tmp
 /.vscode
 *.zip
 /.slugignore
