@@ -1,7 +1,4 @@
 # cat .slugignore
-/assets
-/app_pages/__pycache__/*
-/cloudinary_python.txt
 /documentation
 /.devcontainer
 /inputs
