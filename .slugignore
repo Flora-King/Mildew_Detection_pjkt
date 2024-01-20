@@ -3,8 +3,9 @@ inputs/cherryleaves_dataset/cherry-leaves/test/healthy/*
 inputs/cherryleaves_dataset/cherry-leaves/test/powdery_mildew/*
 inputs/cherryleaves_dataset/cherry-leaves/train/healthy/*
 inputs/cherryleaves_dataset/cherry-leaves/train/powdery_mildew/*
-
+assets
 attachments/*
+jupyter_notebooks
 README.md
 .gitpod.dockerfile
 .gitpod.yml
@@ -14,3 +15,6 @@ app_pages/__pycache__/*
 /.devcontainer
 /.Trash-1000
 /.theia
+/.ipynb_checkpoints
+/inputs/cherryleaves_dataset/cherry-leaves/healthy
+/inputs/cherryleaves_dataset/cherry-leaves/powdery_mildew
