@@ -8,3 +8,5 @@ streamlit
 
 scikit-learn
 tensorflow-cpu
+keras
+protobuf

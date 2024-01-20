@@ -10,3 +10,9 @@ cloudinary_python.txt
 kaggle.json
 inputs/cherryleaves_dataset/cherry-leaves/train
 inputs/cherryleaves_dataset/cherry-leaves/test
+/inputs/cherryleaves_dataset/cherry-leaves/healthy
+/inputs/cherryleaves_dataset/cherry-leaves/powdery_mildew
+log
+tmp
+/.Trash-1000
+/.theia
