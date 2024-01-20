@@ -12,3 +12,5 @@ inputs/cherryleaves_dataset/cherry-leaves/train
 inputs/cherryleaves_dataset/cherry-leaves/test
 log
 tmp
+/.Trash-1000
+/.theia
