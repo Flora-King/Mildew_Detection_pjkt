@@ -9,14 +9,14 @@ inputs/cherryleaves_dataset/cherry-leaves/train/powdery_mildew/*
 inputs/cherryleaves_dataset/cherry-leaves/test/healthy/*
 inputs/cherryleaves_dataset/cherry-leaves/test/powdery_mildew/*
 
-/assets
-/app_pages
-/documentation
-/.devcontainer
+/assets/*
+/app_pages/*
+/documentation/*
+/.devcontainer/*
 /.gitpod.dockerfile
 /.gitignore
-/.github
-/inputs
+/.github/*
+/inputs/*
 *.ipynb
 /.ipynb_checkpoints
 /jupyter_notebooks
@@ -29,7 +29,7 @@ node_modules/
 /src/__pycache__
 /.Trash-1000
 /.theia
-tmp...
+tmp
 /.vscode
 *.zip
 /.slugignore
@@ -41,7 +41,7 @@ core.python*
 env.py
 __pycache__/
 *.py[cod]
-node_modules/
+node_modules/*
 .github/
 cloudinary_python.txt
 log
