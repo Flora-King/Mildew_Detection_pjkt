@@ -52,3 +52,16 @@ tmp
 ./.git/info
 ./.ipynb_checkpoints
 ./app_pages
+
+./app_pages
+./.Trash-1000
+./.devcontainer
+./jupyter_notebooks
+./.theia
+./.github
+./.ipynb_checkpoints
+./.git
+./assets
+./inputs/cherryleaves_dataset/cherry-leaves/test
+./inputs/cherryleaves_dataset/cherry-leaves/cherry-leaves
+./inputs/cherryleaves_dataset/cherry-leaves/train
