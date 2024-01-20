@@ -9,9 +9,11 @@ env.py
 /inputs/cherryleaves_dataset/cherry-leaves/test/powdery_mildew/*
 
 /assets/*
+/attachments/*
 /app_pages/*
 /documentation/*
 /.devcontainer/*
+./.devcontainer/build-assets
 /.gitpod.dockerfile
 /.gitignore
 /.github/*
@@ -47,7 +49,6 @@ log
 tmp
 /inputs/cherryleaves_dataset/cherry-leaves/healthy
 /inputs/cherryleaves_dataset/cherry-leaves/powdery_mildew
-/inputs/cherryleaves_dataset/cherry-leaves/validation
 /inputs
 /README.md
 /assets
