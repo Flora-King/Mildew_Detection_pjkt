@@ -50,4 +50,5 @@ tmp
 /jupyter_notebooks
 /inputs
 ./.git/info
- ./.ipynb_checkpoints
+./.ipynb_checkpoints
+./app_pages
