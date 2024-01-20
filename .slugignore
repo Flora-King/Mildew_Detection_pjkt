@@ -4,6 +4,7 @@ attachments/*
 /documentation
 /.devcontainer
 .gitpod.yml
+.gitpod.dockerfile
 /.gitignore
 .gitpod.dockerfile
 .gitpod.yml
