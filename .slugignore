@@ -8,8 +8,6 @@
 ./.ipynb_checkpoints
 ./.git
 ./assets
-
-
 /assets/*
 /assets/streamlit_app_images
 /documentation/*
@@ -61,4 +59,4 @@ tmp
 /inputs
 ./.git/info
 ./.ipynb_checkpoints
-./app_pages
+/outputs/v1/labels_distribution.png
