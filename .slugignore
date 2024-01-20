@@ -2,12 +2,11 @@ core.Microsoft*
 core.mongo*
 core.python*
 env.py
-kaggle.json
-README.md
-inputs/cherryleaves_dataset/cherry-leaves/train/healthy/*
-inputs/cherryleaves_dataset/cherry-leaves/train/powdery_mildew/*
-inputs/cherryleaves_dataset/cherry-leaves/test/healthy/*
-inputs/cherryleaves_dataset/cherry-leaves/test/powdery_mildew/*
+/kaggle.json
+/inputs/cherryleaves_dataset/cherry-leaves/train/healthy/*
+/inputs/cherryleaves_dataset/cherry-leaves/train/powdery_mildew/*
+/inputs/cherryleaves_dataset/cherry-leaves/test/healthy/*
+/inputs/cherryleaves_dataset/cherry-leaves/test/powdery_mildew/*
 
 /assets/*
 /app_pages/*
@@ -38,25 +37,24 @@ tmp
 core.Microsoft*
 core.mongo*
 core.python*
-env.py
+/env.py
 __pycache__/
 *.py[cod]
-node_modules/*
+/node_modules/*
 /.github/
 cloudinary_python.txt
 log
 tmp
 /inputs/cherryleaves_dataset/cherry-leaves/healthy
 /inputs/cherryleaves_dataset/cherry-leaves/powdery_mildew
-inputs
+/inputs
 
 
 /README.md
 /app_pages
 /assets
 
-
+ ./.git/logs
 /jupyter_notebooks/.ipynb_checkpoints
 /jupyter_notebooks
-
 
