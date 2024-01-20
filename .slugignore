@@ -48,3 +48,4 @@ tmp
 /assets
 ./.git/logs
 /jupyter_notebooks
+/inputs
