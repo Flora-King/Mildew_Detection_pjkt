@@ -24,6 +24,8 @@ tmp...
 /.vscode
 *.zip
 /.slugignore
+assets/streamlit_app_images
+jupyter_notebooks/.ipynb_checkpoints
 
 core.Microsoft*
 core.mongo*
