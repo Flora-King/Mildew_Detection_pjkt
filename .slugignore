@@ -42,7 +42,10 @@ env.py
 __pycache__/
 *.py[cod]
 node_modules/*
-.github/
+/.github/
 cloudinary_python.txt
 log
 tmp
+/inputs/cherryleaves_dataset/cherry-leaves/healthy
+/inputs/cherryleaves_dataset/cherry-leaves/powdery_mildew
+
