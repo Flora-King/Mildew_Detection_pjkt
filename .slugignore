@@ -1,4 +1,6 @@
 # cat .slugignore
+/assets
+/app_pages
 /documentation
 /.devcontainer
 /inputs
