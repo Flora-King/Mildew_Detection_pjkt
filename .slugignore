@@ -47,6 +47,7 @@ log
 tmp
 /inputs/cherryleaves_dataset/cherry-leaves/healthy
 /inputs/cherryleaves_dataset/cherry-leaves/powdery_mildew
+/inputs/cherryleaves_dataset/cherry-leaves/validation
 /inputs
 /README.md
 /assets
