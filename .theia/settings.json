@@ -1,6 +1,0 @@
-{
-    "python.linting.enabled": false,
-    "[markdown]": {
-        "editor.defaultFormatter": "davidanson.vscode-markdownlint"
-    }
-}

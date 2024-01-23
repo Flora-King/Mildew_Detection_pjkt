@@ -150,6 +150,7 @@ Taking images and uploading them to the Powedery Mildew detcctor page on the **C
 ### Render
 
 * The App live link is: <https://mildew-detector-app.onrender.com>
+<<<<<<< HEAD
 * Had to deploy to render due to issues with codeanywhere and heroku deployment.
   
   * The project was deployed to Heroku using the following steps.
@@ -167,6 +168,20 @@ Taking images and uploading them to the Powedery Mildew detcctor page on the **C
    2. PYTHON_VERSION >>> 3.8.12
 10. choose manual or auto-deployment. I chose manual deployment
 11. click create webservice and watch as the deployment progresses
+=======
+* I deployed to render instead of Heroku because i was having so many issues with codeanywhere IDE and therefore couldn't even get to the stage of deploying app to Heroku. I then decided to clone my repository and work in Visual studio instead of codeanywhere and then push code to GitHub per usual rules.
+
+* The project was deployed to Render using the following steps.
+
+1. Delete Procfile and runtime.txt file
+2. Add, commit and pushchanges to Github
+2. Signed into www.render.com using my GitHub username and created a new webservice
+3. Searched and linked my github repository to this webservice
+4. Select the main branch to deploy, then click Deploy Branch.
+5. The deployment process happens smoothly if all deployment files are fully functional.
+6. Click on Open App button on the top of the page to access App.
+   1. If the slug size is too large then add large files not required for the app to the .slugignore file.
+>>>>>>> 702012e5d476bfbc28b679f85d985a8df1c72dc9
 
 ## Main Data Analysis and Machine Learning Libraries
 

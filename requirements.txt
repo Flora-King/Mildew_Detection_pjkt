@@ -10,4 +10,8 @@ scikit-learn
 tensorflow-cpu
 keras
 protobuf
+<<<<<<< HEAD
 pillow<10
+=======
+Pillow<10
+>>>>>>> 702012e5d476bfbc28b679f85d985a8df1c72dc9
