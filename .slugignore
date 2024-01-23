@@ -8,3 +8,12 @@ README.md
 .gitpod.dockerfile
 .gitpod.yml
 app_pages/__pycache__/*
+/app_pages/__pycache__
+/app_pages
+/.ipynb_checkpoints
+/.devcontainer/build-assets
+/.devcontainer
+/assets/streamlit_app_images
+/assets
+/jupyter_notebooks/.ipynb_checkpoints
+/jupyter_notebooks
