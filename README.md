@@ -13,7 +13,7 @@
 9. [Technologies used](#main-data-analysis-and-machine-learning-libraries)
 10. [Credit](#credit)
 
-[click here to access app](<https://mildew-detector-pjt.herokuapp.com/>)
+[click here to access app](<https://mildew-detector-app.onrender.com>)
 
 [click here to access github workspace](https://github.com/Flora-King/Mildew_Detection_pjkt.git)
 
@@ -147,15 +147,17 @@ Taking images and uploading them to the Powedery Mildew detcctor page on the **C
 
 ## Deployment
 
-### Heroku
+### Render
 
-* The App live link is: <https://mildew-detector-pjt.herokuapp.com/>
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
+* The App live link is: <https://mildew-detector-app.onrender.com>
+* I deployed to render instead of Heroku because i was having so many issues with codeanywhere IDE and therefore couldn't even get to the stage of deploying app to Heroku. I then decided to clone my repository and work in Visual studio instead of codeanywhere and then push code to GitHub per usual rules.
 
-1. Log in to Heroku and create an App
-2. At the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
+* The project was deployed to Render using the following steps.
+
+1. Delete Procfile and runtime.txt file
+2. Add, commit and pushchanges to Github
+2. Signed into www.render.com using my GitHub username and created a new webservice
+3. Searched and linked my github repository to this webservice
 4. Select the main branch to deploy, then click Deploy Branch.
 5. The deployment process happens smoothly if all deployment files are fully functional.
 6. Click on Open App button on the top of the page to access App.

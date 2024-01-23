@@ -10,3 +10,4 @@ scikit-learn
 tensorflow-cpu
 keras
 protobuf
+Pillow<10
