@@ -13,7 +13,7 @@
 9. [Technologies used](#main-data-analysis-and-machine-learning-libraries)
 10. [Credit](#credit)
 
-[click here to access app](<https://mildew-detector-pjt.herokuapp.com/>)
+[click here to access app](<https://mildew-detector-app.onrender.com>)
 
 [click here to access github workspace](https://github.com/Flora-King/Mildew_Detection_pjkt.git)
 
@@ -147,19 +147,26 @@ Taking images and uploading them to the Powedery Mildew detcctor page on the **C
 
 ## Deployment
 
-### Heroku
+### Render
 
-* The App live link is: <https://mildew-detector-pjt.herokuapp.com/>
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
+* The App live link is: <https://mildew-detector-app.onrender.com>
+* Had to deploy to render due to issues with codeanywhere and heroku deployment.
+  
+  * The project was deployed to Heroku using the following steps.
 
-1. Log in to Heroku and create an App
-2. At the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the main branch to deploy, then click Deploy Branch.
-5. The deployment process happens smoothly if all deployment files are fully functional.
-6. Click on Open App button on the top of the page to access App.
-   1. If the slug size is too large then add large files not required for the app to the .slugignore file.
+1. Delete Procfile and runtime.txt files
+2. Add, commit and push to github
+3. Log into render via www.render.com using github login details
+4. Create webservice and link git repository
+5. Add web app name,
+6. Enter environment, Region and branch as python 3, Europe, and main respectively
+7. Add this build command [pip install -r requirements.txt && ./setup.sh] and start command [streamlit run app.py]
+8. Select appropiate subscription plan
+9. Select 'Advanced' from dropdown and add enviroment variables as follows:
+   1. Port >>> 8501
+   2. PYTHON_VERSION >>> 3.8.12
+10. choose manual or auto-deployment. I chose manual deployment
+11. click create webservice and watch as the deployment progresses
 
 ## Main Data Analysis and Machine Learning Libraries
 
